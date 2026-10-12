@@ -1,0 +1,53 @@
+ol {
+    color: red;
+background-color: white;}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    background-color: white;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    background-color: white;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
+h1 {
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;}
+
+body {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.Highlight_01{
+    background-color: white;
+font-size: medium; transition:.6s;}
+.Highlight_01:hover{
+    background-color: rgb(255, 223, 40);
+font-size: larger; ;}
+
+.review{
+font-size: medium; transition:.6s;}
+.review:hover{
+font-size: larger; ;}
+
+#gallery {display:flex; align-items: flex-start; row-gap:0; column-gap: 5%;}
+#gallery Img{width:100%;}
+#gallery Div{padding:3%; background-color:white;}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
