@@ -1,0 +1,17 @@
+body {
+    background: #006b17;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {background: #00a123;
+    color: #000000;
+    font-family: sans-serif; border-style: groove;
+}img {
+    width: 50%;
+margin-left: 25%; margin-right: 25%;}
+#fire {width:60px;}
+#secondary-h1{background-image:url("../../Exercises/Images/images.jpg");min-height:350px;max-width:545px;}
+#blacksmith{color: red; background-color: #006b17;width: 50%; margin-left: 25%; margin-right: 25%; cursor: pointer; visibility: visible;}
+button.Awoken{display:none; cursor: pointer;color: rgb(255, 255, 255); background-color: #006b17;width: 60%; margin-left: 20%; margin-right: 20%; cursor: pointer; visibility: visible;}
+#enviormental-output{margin-left: 25%; margin-right:25%; color: white;}

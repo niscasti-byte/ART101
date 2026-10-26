@@ -1,0 +1,17 @@
+button{
+    
+    background: #8ab7e2;
+    color: black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 9px;
+    margin: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+button:hover{transform:rotate(3deg)}
+
+h1{transition:0.2s; inline-size:180px;}
+h1:hover{transform:rotate(3deg) ; inline-size:180px;}
