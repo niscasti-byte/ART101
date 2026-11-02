@@ -6,7 +6,7 @@ h1,
 h2,
 h3 {background: #00a123;
     color: #000000;
-    font-family: sans-serif; border-style: groove;
+    font-family:'Times New Roman', Times, serif; border-style: groove;
 }img {
     width: 50%;
 margin-left: 25%; margin-right: 25%;}
@@ -15,3 +15,5 @@ margin-left: 25%; margin-right: 25%;}
 #blacksmith{color: red; background-color: #006b17;width: 50%; margin-left: 25%; margin-right: 25%; cursor: pointer; visibility: visible;}
 button.Awoken{display:none; cursor: pointer;color: rgb(255, 255, 255); background-color: #006b17;width: 60%; margin-left: 20%; margin-right: 20%; cursor: pointer; visibility: visible;}
 #environment-output{margin-left: 10%; margin-right:10%; color: white;}
+button.Phase-two{display:none; cursor: pointer;color: rgb(255, 255, 255); background-color: #006b17;width: 60%; margin-left: 20%; margin-right: 20%; cursor: pointer; visibility: visible;}
+#invader{color:red}

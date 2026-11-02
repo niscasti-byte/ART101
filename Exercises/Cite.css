@@ -7,7 +7,7 @@ h1,
 h2,
 h3 {
     color: #1d1184;
-    font-family: sans-serif;
+    font-family: sans-serif;text-align: center;
 }
 #page{max-width:900px;
 margin:0 auto 0 auto; background:white; padding:30px}
@@ -30,7 +30,7 @@ img:hover {
     padding: 20px;
     border-left: 6px solid #1d1184;
     flex: 2;max-width:900px;
-margin:0 auto 0auto; background:white; padding:30px
+margin:0 auto 0auto; background:white; padding:30px;
 }
 
 #introduction h2 {
@@ -68,4 +68,19 @@ margin:0 auto 0auto; background:white; padding:30px
 
 .navigation li {
     margin-bottom: 8px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid  #1d1184;
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #1d1184;
+  color: white;
 }
