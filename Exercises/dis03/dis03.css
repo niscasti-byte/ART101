@@ -6,18 +6,6 @@ body {
     text-align: center;
 }
 
-/* DONE for you: a little polaroid frame for Kaya */
-#kaya-photo {
-    width: 50%;
-    max-width: 300px;
-    background: #ffffff;
-    padding: 12px 12px 44px;
-    border-radius: 6px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
-    transform: rotate(-3deg);
-    margin-top: 40px; transition:.5s;
-}
-#kaya-photo:hover{transition:.5s;transform:rotate(-12deg);}
 
 h1 { font-family:"Fredoka";
     color: #9264b7;

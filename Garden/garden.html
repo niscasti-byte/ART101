@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Give Kaya a treat!</title>
+    <!-- DONE for you: this loads the "Fredoka" font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+
+    <!-- TODO 1: Done-->
+    <link href="garden.css" rel="stylesheet" type="text/css">
+
+    <!-- this line loads jQuery. don't delete it! -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </script>
+
+    <!-- TODO 2: connect dis03.js here, AFTER jQuery (don't forget defer!) :DONE -->
+    <script src="garden.js" defer> </script>
+</head>
+
+<body>
+    <h1>The Garden</h1>
+    <h2 id="pets"> Pets in our garden</h2>
+    <h3>Pet Name</h3>
+    <p id="message" aria-live="polite"></p>
+    <ul id="items" aria-live="polite"></ul>
+    <p>Choose a Name, color and shape, for your new friend.</p>
+    <label for="object-label">Name</label>
+    <input id="object-label" type="text" value="Example" maxlength="16">
+    <div id="options">
+        <div>
+            <label for="object-color">Color</label>
+            <input id="object-color" type="color" value="#d9d9d3">
+
+        </div>
+
+        <div>
+            <label for="object-shape">Shape</label>
+            <!-- The option values match the CSS class names. -->
+            <select id="object-shape">
+                <option value="square">Square</option>
+                <option value="circle">Circle</option>
+            </select>
+        </div>
+    </div>
+    <button id="apply-button" type="button">Apply</button>
+    <div id="object" class="square">
+        <span id="preview-label" aria-live="polite">Example</span>
+    </div>
+</body>
+
+</html>
