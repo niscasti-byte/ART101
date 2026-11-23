@@ -1,14 +1,12 @@
 
 let environment = "The tombs of the abysal";
 
-let environmentElements = ["mummys", "fire", "invaders", "sand"];
 
-let mainEntity = {
+
+let TheMummy = {
     name: "A Legendary Blacksmith",
-    death: "betrayl",
-    mood: "suspicious",
     isMoving: false,
-    favoriteElement: environmentElements[2]
+   
 };
 
 $("#blacksmith").click(function () {
