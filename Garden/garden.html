@@ -42,11 +42,19 @@
                 <option value="square">Square</option>
                 <option value="circle">Circle</option>
             </select>
+            
         </div>
     </div>
-    <button id="apply-button" type="button">Apply</button>
-    <div id="object" class="square">
-        <span id="preview-label" aria-live="polite">Example</span>
+    <button id="apply-button" type="button">Apply</button> 
+    </div>
+
+    <div>
+            <p>Click inside the play area to control your pet, then use the arrow keys.</p>
+    <!-- tabindex makes this area focusable so it can receive key events. -->
+    <div id="stage" tabindex="0" aria-label="Movement area. Use the arrow keys.">
+        <div id="item"> <h5 id="item-names"></H1></div>
+        
+    </div>
     </div>
 </body>
 

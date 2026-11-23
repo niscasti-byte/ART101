@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check typed input</title>
+    <link rel="stylesheet" href="fp2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="fp2.js" defer></script>
+</head>
+<body>
+    <p id="instruction"></p>
+    <label for="number-input"><H1></H1><strong>Continent Quiz</strong></label>
+    <div class="continents"> 
+        <img src="/Exercises/FP2/earth_noClouds0330.jpg" alt="">
+<button id="asia" type="button">continent 1</button>
+<button id="europe" type="button">continent 2</button>
+<button id="North-america" type="button">continent 3</button>
+<button id="South-america" type="button">continent 4</button>
+<button id="austrlia" type="button">continent 5</button>
+<button id="Africa" type="button">continent 6</button>
+<button id="Antarctica" type="button">continent 7</button>
+    </div>
+    <div class="controls">
+        <input id="number-input" type="text" autocomplete="off">
+        <button id="check-button" type="button">Check</button>
+    </div>
+    <p id="result" aria-live="polite">Not checked yet.</p>
+</body>
+</html>
